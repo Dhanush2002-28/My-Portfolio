@@ -85,11 +85,11 @@ main hr {
     color: blueviolet;
 }
 
-.secondsection {
-    max-width: 80vw;
-    margin-left: 70px;
+/* .secondsection {
+    /* max-width: 80vw;
+    margin-left: 70px; */
     /* font-size: 1rem; */
-}
+
 
 hr {
     background-color: rgb(32, 32, 82);
@@ -99,9 +99,9 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: auto;
+   
     flex-direction: row;
-    max-width: 80vw;
+    width: 100vw;
     /* margin: auto; */
     font-weight: 1000px;
 }
@@ -113,16 +113,22 @@ hr {
 
 .hms{
     width:35vw;
-    height: 40vh;
+    height: 20vh;
     background-color: rgba(209, 98, 209, 0.648);
     border: 2px solid white;
     box-shadow: palevioletred;
     border-radius: 10px;
     margin-left: 10px;
     padding: 5px;
+    overflow: auto;
+}
+
+.hms::-webkit-scrollbar{
+    display: none;
 }
 
 .hms > span{
     font-size: 20px;
     font-weight: 500;
+    text-wrap: pretty;
 }
