@@ -2,7 +2,7 @@ body {
     background-color: #F7F3E9;
     color: rgb(0, 0, 0);
     font-family: "IBM Plex Sans";
-    background-image: url("Blue\ and\ Green\ Playful\ Illustrative\ Landscape\ Zoom\ Virtual\ Background.png");
+    /* background-image: url("Blue\ and\ Green\ Playful\ Illustrative\ Landscape\ Zoom\ Virtual\ Background.png"); */
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -88,7 +88,7 @@ main hr {
 .secondsection {
     max-width: 80vw;
     margin-left: 70px;
-    font-size: 1rem;
+    /* font-size: 1rem; */
 }
 
 hr {
@@ -96,8 +96,33 @@ hr {
 }
 
 .secondsection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    flex-direction: row;
     max-width: 80vw;
-    margin: auto;
-    font-weight: 1000;
+    /* margin: auto; */
+    font-weight: 1000px;
+}
 
+.secondsection > p{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.hms{
+    width:35vw;
+    height: 30vh;
+    background-color: rgba(209, 98, 209, 0.648);
+    border: 2px solid white;
+    box-shadow: palevioletred;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.hms > span{
+    font-size: 20px;
+    font-weight: 500;
 }
