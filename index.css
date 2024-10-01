@@ -1,134 +1,138 @@
 body {
-    background-color: #F7F3E9;
-    color: rgb(0, 0, 0);
-    font-family: "IBM Plex Sans";
-    /* background-image: url("Blue\ and\ Green\ Playful\ Illustrative\ Landscape\ Zoom\ Virtual\ Background.png"); */
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background: rgb(238,238,238);
+    background: linear-gradient(135deg, rgba(238,238,238,1) 0%, rgba(173,216,230,1) 50%, rgba(240,248,255,1) 100%);
+    
+  );
+  font-family: "IBM Plex Sans";
+  /* background-image: url("Blue\ and\ Green\ Playful\ Illustrative\ Landscape\ Zoom\ Virtual\ Background.png"); */
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 80px;
-    background-color: #2C3E50;
-    color: #F1C40F;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background: rgb(41,50,60);
+background: linear-gradient(135deg, rgba(41,50,60,1) 0%, rgba(60,72,85,1) 50%, rgba(85,98,112,1) 100%);
+
+  color: #f1c40f;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 nav ul {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 nav ul li {
-    list-style: none;
-    margin: 0 23px;
+  list-style: none;
+  margin: 0 23px;
 }
 
 .left {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .firstsection {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 90vh;
-    /* margin: 30px 0; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 90vh;
+  /* margin: 30px 0; */
 }
 
-.firstsection>div {
-    width: 40%;
-    /* margin-top: 30px; */
+.firstsection > div {
+  width: 40%;
+  /* margin-top: 30px; */
 }
 
 .leftsection {
-    margin: 110px 0;
-    font-size: 3rem;
+  margin: 110px 0;
+  font-size: 3rem;
 }
 
 .rightsection img {
-    width: 60%;
-    margin-left: 120px;
+  width: 60%;
+  margin-left: 120px;
 }
 
-
 .purple {
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
 nav ul li a:hover {
-    text-decoration: none;
-    color: rgb(14, 11, 11);
-    font-size: 1.01rem;
+  text-decoration: none;
+  color: rgb(14, 11, 11);
+  font-size: 1.01rem;
 }
 
 main hr {
-    border: 0;
-    background: #9c97f1;
-    height: 2px;
-    margin: 40px 80px;
+  border: 0;
+  background: #9c97f1;
+  height: 2px;
+  margin: 40px 80px;
 }
 
 #element {
-    color: blueviolet;
+  color: blueviolet;
 }
 
 /* .secondsection {
     /* max-width: 80vw;
     margin-left: 70px; */
-    /* font-size: 1rem; */
-
+/* font-size: 1rem; */
 
 hr {
-    background-color: rgb(32, 32, 82);
+  background-color: rgb(32, 32, 82);
 }
 
 .secondsection {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-    flex-direction: row;
-    width: 100vw;
-    /* margin: auto; */
-    font-weight: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: row;
+  width: 100vw;
+  /* margin: auto; */
+  font-weight: 1000px;
 }
 
-.secondsection > p{
-    font-size: 40px;
-    font-weight: 700;
+.secondsection > p {
+  font-size: 40px;
+  font-weight: 700;
 }
 
-.hms{
-    width:35vw;
-    height: 20vh;
-    background-color: rgba(209, 98, 209, 0.648);
-    border: 2px solid white;
-    box-shadow: palevioletred;
-    border-radius: 10px;
-    margin-left: 10px;
-    padding: 5px;
-    overflow: auto;
+.hms {
+  width: 35vw;
+  height: 20vh;
+  background-color: rgba(209, 98, 209, 0.648);
+  border: 2px solid white;
+  box-shadow: palevioletred;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding: 5px;
+  overflow: auto;
 }
 
-.hms::-webkit-scrollbar{
-    display: none;
+.hms::-webkit-scrollbar {
+  display: none;
 }
 
-.hms > span{
-    font-size: 20px;
-    font-weight: 500;
-    text-wrap: pretty;
+.hms > span {
+  font-size: 20px;
+  font-weight: 500;
+  text-wrap: pretty;
 }
