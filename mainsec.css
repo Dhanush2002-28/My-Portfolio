@@ -85,8 +85,10 @@ hr {
 .hms {
     width: 35vw;
     height: 35vh;
-    background-color: rgba(209, 98, 209, 0.648);
-    border: 2px solid white;
+    background: linear-gradient(135deg, rgba(220,235,245,1) 0%, rgba(255,255,255,1) 100%);
+
+
+    /* border: 1px solid #B39DDB; Muted lavender */
     box-shadow: palevioletred;
     border-radius: 10px;
     margin-left: 10px;
