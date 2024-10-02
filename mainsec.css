@@ -45,33 +45,48 @@ hr {
     background-color: rgb(32, 32, 82);
 }
 
-.education{
-
-}
-
 .edu-al{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .roadmap{
-    height: 60%;
-    width: 60%;
-    margin-left: 227px;
+    height: 50%;
+    width: 50%;
+    
 }
 
 .education>p{
     font-size: 40px;
     font-weight: 700;
-    margin-left: 120px;
+    margin-left: 0px;
 }
+
+.lang{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    gap: 20px;
+    overflow: auto;
+}
+
+
 
 .secondsection {
     display: flex;
     align-items: center;
     justify-content: center;
 
-    flex-direction: row;
+    flex-direction: column;
     width: 100vw;
     /* margin: auto; */
     font-weight: 1000px;
@@ -82,12 +97,17 @@ hr {
     font-weight: 700;
 }
 
+.work{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
 .hms {
     width: 35vw;
     height: 35vh;
     background: linear-gradient(135deg, rgba(220,235,245,1) 0%, rgba(255,255,255,1) 100%);
-
-
+    
     /* border: 1px solid #B39DDB; Muted lavender */
     box-shadow: palevioletred;
     border-radius: 10px;
