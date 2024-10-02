@@ -1,0 +1,121 @@
+.firstsection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 90vh;
+    /* margin: 30px 0; */
+}
+
+.firstsection>div {
+    width: 40%;
+    /* margin-top: 30px; */
+}
+
+.leftsection {
+    margin: 110px 0;
+    font-size: 3rem;
+}
+
+.rightsection img {
+    width: 60%;
+    margin-left: 120px;
+}
+
+.purple {
+    color: rgb(0, 0, 0);
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 2px;
+    margin: 40px 80px;
+}
+
+#element {
+    color: blueviolet;
+}
+
+/* .secondsection {
+    /* max-width: 80vw;
+    margin-left: 70px; */
+/* font-size: 1rem; */
+
+hr {
+    background-color: rgb(32, 32, 82);
+}
+
+.education{
+
+}
+
+.edu-al{
+    display: flex;
+    flex-direction: row;
+}
+
+.roadmap{
+    height: 60%;
+    width: 60%;
+    margin-left: 227px;
+}
+
+.education>p{
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 120px;
+}
+
+.secondsection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: row;
+    width: 100vw;
+    /* margin: auto; */
+    font-weight: 1000px;
+}
+
+.secondsection>p {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.hms {
+    width: 35vw;
+    height: 35vh;
+    background-color: rgba(209, 98, 209, 0.648);
+    border: 2px solid white;
+    box-shadow: palevioletred;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-left: 22px;
+    overflow: auto;
+}
+
+.hms::-webkit-scrollbar {
+    display: none;
+}
+
+.hms span {
+    font-size: 20px;
+    font-weight: 500;
+    text-wrap: pretty;
+    position: static;
+    text-decoration: underline;
+}
+
+.hms ul li{
+    list-style-type:disc;   
+}
+
+a{
+    color: black;
+}
+
+.src{
+    height: 17px;
+    width: 17px;
+    padding-top: 5px;
+}
