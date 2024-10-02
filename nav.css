@@ -7,8 +7,10 @@ nav {
     background: linear-gradient(135deg, rgba(41, 50, 60, 1) 0%, rgba(60, 72, 85, 1) 50%, rgba(85, 98, 112, 1) 100%);
 
     color: #f1c40f;
+    size: 50px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    
 }
 
 nav ul {
@@ -21,7 +23,9 @@ nav ul li {
     margin: 0 23px;
 }
 .left {
-    font-size: 1.5rem;
+    font-family: 'Satisfy', 'Oswald', sans-serif;
+
+    font-size: 2.5rem;
 }
 
 nav ul li a {
