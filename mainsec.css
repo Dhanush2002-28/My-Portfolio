@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 90vh;
+    height: 82vh;
     /* margin: 30px 0; */
 }
 
@@ -17,8 +17,9 @@
 }
 
 .rightsection img {
-    width: 60%;
+    width: 80%;
     margin-left: 120px;
+    padding-top: 17px;
 }
 
 .purple {
@@ -54,7 +55,8 @@ hr {
 
 .roadmap {
     height: 50%;
-    width: 50%;
+    width: 60%;
+    transform: scaleX(2);
 }
 
 .education>p {
