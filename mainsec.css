@@ -45,33 +45,32 @@ hr {
     background-color: rgb(32, 32, 82);
 }
 
-.edu-al{
+.edu-al {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
-.roadmap{
+.roadmap {
     height: 50%;
     width: 50%;
-    
 }
 
-.education>p{
+.education>p {
     font-size: 40px;
     font-weight: 700;
     margin-left: 0px;
 }
 
-.lang{
+.lang {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 80vw;
 }
 
-.logos{
+.logos {
     width: 80vw;
     display: flex;
     justify-content: center;
@@ -80,8 +79,6 @@ hr {
     gap: 20px;
     overflow: auto;
 }
-
-
 
 .secondsection {
     display: flex;
@@ -99,7 +96,7 @@ hr {
     font-weight: 700;
 }
 
-.work{
+.work {
     display: flex;
     flex-direction: row;
     padding-top: 20px;
@@ -108,8 +105,10 @@ hr {
 .hms {
     width: 35vw;
     height: 35vh;
-    background: linear-gradient(135deg, rgba(220,235,245,1) 0%, rgba(255,255,255,1) 100%);
-    
+    background: linear-gradient(135deg,
+            rgba(220, 235, 245, 1) 0%,
+            rgba(255, 255, 255, 1) 100%);
+
     /* border: 1px solid #B39DDB; Muted lavender */
     box-shadow: palevioletred;
     border-radius: 10px;
@@ -130,16 +129,29 @@ hr {
     text-decoration: underline;
 }
 
-.hms ul li{
-    list-style-type:disc;   
+.hms ul li {
+    list-style-type: disc;
 }
 
-a{
+a {
     color: black;
 }
 
-.src{
+.src {
     height: 17px;
     width: 17px;
     padding-top: 5px;
+}
+
+/* Initial state: hidden and translated down */
+.animate {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Animated state: visible and in place */
+.animate.active {
+    opacity: 1;
+    transform: translateY(0);
 }

@@ -5,12 +5,15 @@
     <script>
         window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
     <script defer src="/_vercel/insights/script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
 
     <title>Dhanush - Developer portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,28 +48,28 @@
     </header>
 
     <main>
-        <section class="firstsection">
-            <div class="leftsection">
+        <section class="firstsection" data-aos="fade-up" data-aos-delay="50">
+            <div class="leftsection" data-aos="fade-up" data-aos-delay="50">
                 Hi, I am <span class="purple">Dhanush C</span>
                 <div>and I am a passionate</div>
 
                 <span id="element"></span>
             </div>
-            <div class="rightsection">
+            <div class="rightsection" data-aos="fade-up" data-aos-delay="50">
                 <img src="assets/dev.png" alt="" srcset="">
             </div>
         </section>
         <hr>
-        <section class=" secondsection education">
+        <section class=" secondsection education" data-aos="fade-up" data-aos-delay="50">
             <p>Education</p>
             <div class="edu-al">
-                <img class="roadmap" src="assets/Roadmap.png">
+                <img class="roadmap" src="assets/Roadmap.png" data-aos="fade-up" data-aos-delay="50">
             </div>
         </section>
         <hr>
-        <section class=" secondsection lang" style="flex-direction: column; fl">
+        <section class=" secondsection lang" data-aos="fade-up" data-aos-delay="50" style="flex-direction: column; fl">
             <p>Languages and technologies known</p>
-            <div class="logos">
+            <div class="logos" data-aos="fade-up" data-aos-delay="50">
                 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
                     alt="HTML Logo" width="100">
                 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
@@ -99,10 +102,10 @@
             </div>
         </section>
         <hr>
-        <section class="secondsection">
-            <p>Work Experience</p>
+        <section class="secondsection" data-aos="fade-up" data-aos-delay="50">
+            <p data-aos="fade-up" data-aos-delay="50">Work Experience</p>
             <div class="work">
-                <div class="hms">
+                <div class="hms" data-aos="fade-up" data-aos-delay="50">
                     <span><a href="https://github.com/Dhanush2002-28/Hostel-Management-System">Hostel Management System
                             <img class="src" src="assets/external-link.png"></a></span><br>
                     <ul class="proj">
@@ -127,7 +130,7 @@
 
                 </div>
 
-                <div class="hms net">
+                <div class="hms net" data-aos="fade-up" data-aos-delay="50">
                     <span><a href="https://github.com/Dhanush2002-28/Netflix-clone">Netflix Clone<img class="src"
                                 src="assets/external-link.png"></a></span>
                     <ul class="proj">
@@ -151,24 +154,24 @@
 
     </main>
     <footer>
-        <section class=" secondsection foot">
+        <section class=" secondsection foot" data-aos="fade-up" data-aos-delay="50">
             <p>My Profiles</p>
-            <div class="logos">
-                <div class="logo-item">
+            <div class="logos" data-aos="fade-up" data-aos-delay="50">
+                <div class="logo-item" data-aos="fade-up" data-aos-delay="50">
                     <a href="assets/Dhanush_Resume_G.pdf" target="_blank" download="Dhanush_Resume_G.pdf">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF Icon"
                             width="100" height="100">
                     </a>
                     <p>Resume</p>
                 </div>
-                <div class="logo-item">
+                <div class="logo-item" data-aos="fade-up" data-aos-delay="50">
                     <a href="https://github.com/Dhanush2002-28" target="_blank">
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg"
                             alt="GitHub Logo" width="100">
                     </a>
                     <p>GitHub</p>
                 </div>
-                <div class="logo-item">
+                <div class="logo-item" data-aos="fade-up" data-aos-delay="50">
                     <a href="https://www.linkedin.com/in/dhanushc28/" target="_blank">
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg"
                             alt="LinkedIn Logo" width="100">
@@ -190,6 +193,16 @@
             loop: true,
         });
     </script>
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800, // Animation duration in milliseconds
+            once: false,    // Whether animation should happen only once while scrolling down
+        });
+    </script>
+
 </body>
 
 </html>
