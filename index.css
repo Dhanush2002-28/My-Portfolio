@@ -17,6 +17,10 @@ body {
     padding: 0;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 .proj li{
     list-style: square;
 }

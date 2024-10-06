@@ -115,9 +115,35 @@ hr {
     box-shadow: palevioletred;
     border-radius: 10px;
     margin-left: 10px;
-    padding-left: 22px;
-    overflow: auto;
+    /* padding-left: 22px; */
+    overflow: hidden;
 }
+
+.hmsp{
+    display: block;
+}
+
+.clone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    font-size: 1.5em;
+}
+
+.netflix{
+    object-fit:fill;
+    height: 35vh;
+    width: 35vw;
+}
+
+/* .ext{
+    width:10px;
+    height: 10px;
+} */
 
 .hms::-webkit-scrollbar {
     display: none;
