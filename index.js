@@ -1,6 +1,4 @@
-window.onload = function () {
-  alert("Please view this webiste in desktop/laptop only for best experince.")
-}
+
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
