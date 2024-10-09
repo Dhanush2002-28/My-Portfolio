@@ -43,6 +43,9 @@
         window.onload = function () {
             alert("Please view this webiste in desktop/laptop only for best experince.")
         }
+
+        
+
     </script>
 </head>
 
@@ -166,6 +169,10 @@
         <hr>
 
     </main>
+    <button id="backToTopBtn" title="Go to top" class="top" data-aos="fade-up" placeholder="Back to top">
+        <img src="assets/up-arrow.png" alt="Up Arrow">
+    </button>
+
     <footer>
         <section class=" secondsection foot" data-aos="fade-up">
             <p>My Profiles</p>
@@ -196,6 +203,30 @@
         </section>
         <section></section>
     </footer>
+    <!-- Scroll to top Button -->
+    <script> 
+        
+        let backToTopBtn = document.getElementById("backToTopBtn");
+
+        
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                backToTopBtn.style.display = "block";
+            } else {
+                backToTopBtn.style.display = "none";
+            }
+        }
+
+        
+        backToTopBtn.onclick = function () {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+        };
+    </script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
@@ -209,10 +240,11 @@
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
         AOS.init({
-            duration: 800, // Animation duration in milliseconds
-            once: false,    // Whether animation should happen only once while scrolling down
+            duration: 800,
+            once: false,
         });
     </script>
+    
 
 </body>
 
