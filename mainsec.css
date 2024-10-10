@@ -65,7 +65,6 @@ html {
     justify-content: center;
     flex-direction: column;
     width: 80vw;
-    /* margin: auto; */
     font-weight: 1000px;
 }
 
@@ -97,10 +96,6 @@ main hr {
     color: blueviolet;
 }
 
-/* .secondsection {
-    /* max-width: 80vw;
-    margin-left: 70px; */
-/* font-size: 1rem; */
 
 hr {
     background-color: rgb(32, 32, 82);
@@ -146,10 +141,8 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-
     flex-direction: column;
     width: 100vw;
-    /* margin: auto; */
     font-weight: 1000px;
 }
 
@@ -170,12 +163,9 @@ hr {
     background: linear-gradient(135deg,
             rgba(220, 235, 245, 1) 0%,
             rgba(255, 255, 255, 1) 100%);
-
-    /* border: 1px solid #B39DDB; Muted lavender */
     box-shadow: palevioletred;
     border-radius: 10px;
     margin-left: 10px;
-    /* padding-left: 22px; */
     overflow: hidden;
 }
 
@@ -199,11 +189,6 @@ hr {
     height: 35vh;
     width: 35vw;
 }
-
-/* .ext{
-    width:10px;
-    height: 10px;
-} */
 
 .hms::-webkit-scrollbar {
     display: none;
@@ -231,14 +216,12 @@ a {
     padding-top: 5px;
 }
 
-/* Initial state: hidden and translated down */
 .animate {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
-/* Animated state: visible and in place */
 .animate.active {
     opacity: 1;
     transform: translateY(0);

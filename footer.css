@@ -9,26 +9,26 @@
 
 .logos {
     display: flex;
-    justify-content: center; /* Center the logos */
-    gap: 40px; /* Space between logos */
-    flex-wrap: wrap; /* Allow wrapping to next line */
+    justify-content: center; 
+    gap: 40px; 
+    flex-wrap: wrap; 
 }
 
 .logo-item {
-    text-align: center; /* Center the text below the icon */
+    text-align: center;
 }
 
 .logo-item img {
-    transition: transform 0.2s; /* Animation effect */
+    transition: transform 0.2s;
 }
 
 .logo-item img:hover {
-    transform: scale(1.1); /* Scale effect on hover */
+    transform: scale(1.1); 
 }
 
 .logo-item p {
-    margin-top: 10px; /* Space between icon and text */
-    font-size: 16px; /* Adjust font size as needed */
+    margin-top: 10px; 
+    font-size: 16px; 
 }
 
 .logos::-webkit-scrollbar {
