@@ -1,4 +1,8 @@
 @media (max-width: 600px) {
+    .nav{
+        width: 100vw;
+    }
+    
     .firstsection{
         display: flex;
         flex-direction: column-reverse;
@@ -50,6 +54,7 @@
         background: none;
         border-radius: 0;
         height: fit-content;
+        margin-left: 0;
     }
 
     .netflix{
@@ -57,3 +62,4 @@
         height: fit-content;
         
     }
+}
