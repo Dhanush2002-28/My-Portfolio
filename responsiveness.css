@@ -10,7 +10,7 @@
     }
 
     .leftsection{
-        font-size: 1.6em;
+        font-size: 1.8em;
     }
     .rightsection{
         display: flex;
@@ -27,7 +27,7 @@
     }
 
     .secondsection>p{
-        /* font-size: 32px; */
+        font-size: 32px;
     }
     .about{
         font-size: 16px;
@@ -49,6 +49,7 @@
         width: 100vw;
         background: none;
         border-radius: 0;
+        height: fit-content;
     }
 
     .netflix{
