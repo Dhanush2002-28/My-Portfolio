@@ -1,6 +1,26 @@
 @media (max-width: 600px) {
     .nav{
-        width: 100vw;
+        position: fixed;
+        top:0;
+        width: 100%;
+        z-index: 10;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background: rgb(41, 50, 60);
+        background: linear-gradient(135deg, rgba(41, 50, 60, 1) 0%, rgba(60, 72, 85, 1) 50%, rgba(85, 98, 112, 1) 100%);
+    
+        color: #f1c40f;
+        size: 50px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .left {
+        font-family: 'Satisfy', 'Oswald', sans-serif;
+    
+        font-size: 2rem;
     }
     
     .firstsection{
@@ -14,7 +34,7 @@
     }
 
     .leftsection{
-        font-size: 1.9em;
+        font-size: 2.0em;
     }
     .rightsection{
         display: flex;
@@ -27,33 +47,38 @@
         width: 50%;
         margin: 0;
         margin-top: 20px;
-        transform: translateY(77px);
-        /* transform: scale(1.5);     */
+        transform: translateY(77px) scale(1.5);
+        
     }
 
     .secondsection>p{
-        font-size: 25px;
+        font-size: 35px;
     }
     .about{
-        font-size: 16px;
+        font-size: 20px;
+    }
+
+    .lang>p{
+        text-align: center;
     }
 
     .logos{
         gap: 20px;
     }
     .logos>img{
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
     }
 
     .work{
         flex-direction: column;
+        gap: 50px;
     }
 
     .hms{
-        width: 100vw;
+        width: 90vw;
         background: none;
-        border-radius: 0;
+        border-radius: 10;
         height: fit-content;
         margin-left: 0;
     }
@@ -61,6 +86,21 @@
     .netflix{
         width: 100%;
         height: fit-content;
-        margin: 0 10px 0px 10px
+        
+    }
+
+    .roadmap{
+        width: 100vw;
+        height: max-content;
+    }
+
+    main hr{
+        align-items: center;
+        width:90vw;
+        margin: 10px 0 10px 20px; 
+    }
+
+    footer{
+        margin-top: 50px;
     }
 }
