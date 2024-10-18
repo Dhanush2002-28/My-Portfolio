@@ -27,7 +27,8 @@
         width: 50%;
         margin: 0;
         margin-top: 20px;
-        transform: translateY(77px)
+        transform: translateY(77px);
+        transform: scale(1.5);    
     }
 
     .secondsection>p{
