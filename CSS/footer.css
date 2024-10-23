@@ -1,6 +1,6 @@
-.foot{
+.foot {
     height: fit-content;
-    background: linear-gradient(135deg, rgba(173, 216, 230, 1) 0%, rgba(240, 248, 255, 1) 100%);
+    /* background: linear-gradient(135deg, rgba(173, 216, 230, 1) 0%, rgba(240, 248, 255, 1) 100%); */
 
 
     border-top-left-radius: 30px;
@@ -9,9 +9,9 @@
 
 .logos {
     display: flex;
-    justify-content: center; 
-    gap: 40px; 
-    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 .logo-item {
@@ -23,12 +23,12 @@
 }
 
 .logo-item img:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
 
 .logo-item p {
-    margin-top: 10px; 
-    font-size: 16px; 
+    margin-top: 10px;
+    font-size: 16px;
 }
 
 .logos::-webkit-scrollbar {
