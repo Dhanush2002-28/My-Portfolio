@@ -10,6 +10,10 @@
     <script>
         window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
+    <script>
+        window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/speed-insights/script.js"></script>
     <!-- AOS CSS -->
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
@@ -232,10 +236,7 @@
     </footer>
     <!-- Scroll to top Button -->
     <script>
-
         let backToTopBtn = document.getElementById("backToTopBtn");
-
-
         window.onscroll = function () {
             scrollFunction();
         };
@@ -247,14 +248,14 @@
                 backToTopBtn.style.display = "none";
             }
         }
-
-
         backToTopBtn.onclick = function () {
-            document.body.scrollTop = 0; // For Safari
-            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         };
     </script>
+
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
     <script>
         var typed = new Typed('#element', {
             strings: ['Web Developer.', 'Web Designer.', 'Tech Enthusiast.',],
@@ -268,8 +269,7 @@
             const themeCheckbox = document.getElementById('theme-checkbox');
             themeCheckbox.addEventListener('change', function () {
                 const targetElement = document.querySelector('.purple.dark');
-                const boldElements = document.querySelectorAll('.bold'); // Select all bold elements
-
+                const boldElements = document.querySelectorAll('.bold');
                 if (this.checked) {
                     document.body.style.background = 'linear-gradient(120deg, rgba(0,0,0,1) 25%, rgba(153,5,185,1) 50%, rgba(84,15,98,1) 75%)';
                     document.body.style.color = 'white';
