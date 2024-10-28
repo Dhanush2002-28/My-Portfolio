@@ -46,6 +46,22 @@ nav ul li a:hover {
     font-size: 1.01rem;
 }
 
+.contain-link{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+.logo-item:hover{
+    transform: scale(2);
+}
 
 .theme-switch {
     position: relative;
