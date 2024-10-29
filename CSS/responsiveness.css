@@ -146,10 +146,6 @@
         gap: 10px;
     }
 
-    .firstsection {
-        
-    }
-
     .leftsection {
         font-size: 2.0em;
         transform: translateY(20px);
@@ -165,7 +161,7 @@
     }
 
     .rightsection img {
-        width:50%;
+        width: 50%;
         margin: 0;
         margin-top: 20px;
         transform: translateY(177px) scale(0.9);

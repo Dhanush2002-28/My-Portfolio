@@ -101,6 +101,7 @@ main hr {
 
 hr {
     background-color: rgb(32, 32, 82);
+    margin-top: 35px;
 }
 
 .edu-al {
@@ -137,6 +138,15 @@ hr {
     padding-top: 20px;
     gap: 20px;
     overflow: auto;
+    padding-bottom: 10px;
+}
+
+.logos>img:hover{
+    transform: scale(1.1);
+}
+
+.logos>img{
+    transition: transform 0.3s ease;
 }
 
 .secondsection {
@@ -180,7 +190,18 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease;
 }
+
+.clone:hover{
+    transform: scale(1.1);
+}
+
+.clone2:hover{
+    transform: scale(1.1);
+    z-index: 10;
+}
+
 
 .text {
     font-size: 1.5em;

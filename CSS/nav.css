@@ -59,8 +59,8 @@ nav ul li a:hover {
     
 }
 
-.logo-item:hover{
-    transform: scale(2);
+.links .logo-item:hover{
+    transform: scale(1.2);
 }
 
 .theme-switch {
