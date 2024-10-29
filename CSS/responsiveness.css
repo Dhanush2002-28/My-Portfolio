@@ -1,7 +1,7 @@
 @media (max-width: 600px) {
-    .nav{
+    .nav {
         position: fixed;
-        top:0;
+        top: 0;
         width: 100%;
         z-index: 10;
         display: flex;
@@ -10,7 +10,7 @@
         height: 80px;
         background: rgb(41, 50, 60);
         background: linear-gradient(135deg, rgba(41, 50, 60, 1) 0%, rgba(60, 72, 85, 1) 50%, rgba(85, 98, 112, 1) 100%);
-    
+
         color: #f1c40f;
         size: 50px;
         border-bottom-left-radius: 30px;
@@ -19,63 +19,67 @@
 
     .left {
         font-family: 'Satisfy', 'Oswald', sans-serif;
-    
+
         font-size: 2rem;
     }
-    
-    .firstsection{
+
+    .firstsection {
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .firstsection>div{
+    .firstsection>div {
         width: 100%;
         margin-left: 20px;
     }
 
-    .leftsection{
+    .leftsection {
         font-size: 2.0em;
     }
-    .rightsection{
+
+    .rightsection {
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
         height: 100%;
     }
+
     .rightsection img {
         width: 50%;
         margin: 0;
         margin-top: 20px;
         transform: translateY(77px) scale(1.5);
-        
+
     }
 
-    .secondsection>p{
+    .secondsection>p {
         font-size: 35px;
     }
-    .about{
+
+    .about {
         font-size: 20px;
     }
 
-    .lang>p{
+    .lang>p {
         text-align: center;
     }
 
-    .logos{
+    .logos {
         gap: 20px;
     }
-    .logos>img{
+
+    .logos>img {
         width: 50px;
         height: 50px;
     }
 
-    .work{
+    .work {
         flex-direction: column;
         gap: 50px;
     }
 
-    .hms{
+    .hms {
         width: 90vw;
         background: none;
         border-radius: 10;
@@ -83,32 +87,32 @@
         margin-left: 0;
     }
 
-    .netflix{
+    .netflix {
         width: 100%;
         height: fit-content;
-        
+
     }
 
-    .roadmap{
+    .roadmap {
         width: 100vw;
         height: max-content;
     }
 
-    main hr{
+    main hr {
         align-items: center;
-        width:90vw;
-        margin: 10px 0 10px 20px; 
+        width: 90vw;
+        margin: 10px 0 10px 20px;
     }
 
-    footer{
+    footer {
         margin-top: 50px;
     }
 }
 
 @media (min-width: 601px) and (max-width: 900px) {
-    .nav{
+    .nav {
         position: fixed;
-        top:0;
+        top: 0;
         width: 100%;
         z-index: 10;
         display: flex;
@@ -117,7 +121,7 @@
         height: 80px;
         background: rgb(41, 50, 60);
         background: linear-gradient(135deg, rgba(41, 50, 60, 1) 0%, rgba(60, 72, 85, 1) 50%, rgba(85, 98, 112, 1) 100%);
-    
+
         color: #f1c40f;
         size: 50px;
         border-bottom-left-radius: 30px;
@@ -126,29 +130,32 @@
 
     .left {
         font-family: 'Satisfy', 'Oswald', sans-serif;
-    
+
         font-size: 2rem;
     }
-    
-    .firstsection{
+
+    .firstsection {
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .firstsection>div{
+    .firstsection>div {
         width: 100%;
-        margin-left: 20px;
+        margin-left: 40px;
+        transform: translateY(-20px);
+        gap: 10px;
     }
 
-    .firstsection{
+    .firstsection {
+        
     }
 
-    .leftsection{
+    .leftsection {
         font-size: 2.0em;
         transform: translateY(20px);
     }
 
-    .rightsection{
+    .rightsection {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -156,39 +163,42 @@
         height: 100%;
         mar
     }
+
     .rightsection img {
         width: 50%;
         margin: 0;
         margin-top: 20px;
-        transform: translateY(177px) scale(1);
-        
+        transform: translateY(177px) scale(0.9);
+
     }
 
-    .secondsection>p{
+    .secondsection>p {
         font-size: 35px;
     }
-    .about{
+
+    .about {
         font-size: 20px;
     }
 
-    .lang>p{
+    .lang>p {
         text-align: center;
     }
 
-    .logos{
+    .logos {
         gap: 20px;
     }
-    .logos>img{
+
+    .logos>img {
         width: 40px;
         height: 40px;
     }
 
-    .work{
+    .work {
         flex-direction: column;
         gap: 50px;
     }
 
-    .hms{
+    .hms {
         width: 90vw;
         background: none;
         border-radius: 10;
@@ -196,24 +206,24 @@
         margin-left: 0;
     }
 
-    .netflix{
+    .netflix {
         width: 100%;
         height: fit-content;
-        
+
     }
 
-    .roadmap{
+    .roadmap {
         width: 100vw;
         height: max-content;
     }
 
-    main hr{
+    main hr {
         align-items: center;
-        width:90vw;
-        margin: 10px 0 10px 20px; 
+        width: 90vw;
+        margin: 10px 0 10px 20px;
     }
 
-    footer{
+    footer {
         margin-top: 50px;
     }
 }
