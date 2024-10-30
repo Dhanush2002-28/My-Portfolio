@@ -12,7 +12,6 @@ nav {
             rgba(41, 50, 60, 1) 0%,
             rgba(60, 72, 85, 1) 50%,
             rgba(85, 98, 112, 1) 100%);
-
     color: #f1c40f;
     size: 50px;
     border-bottom-left-radius: 30px;
@@ -31,7 +30,6 @@ nav ul li {
 
 .left {
     font-family: "Satisfy", "Oswald", sans-serif;
-
     font-size: 2.5rem;
 }
 
@@ -108,7 +106,6 @@ nav ul li a:hover {
 }
 
 #theme-checkbox:checked+label div {
-    /* left: calc(2.5em - .8em - .1em); */
     left: 1.6em;
     background-color: #212121;
 }
@@ -153,7 +150,6 @@ label {
 label span {
     margin-left: 10px;
 }
-
 
 input[type="checkbox"]:checked~label~body,
 input[type="checkbox"]:checked~label~body * {

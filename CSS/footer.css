@@ -1,8 +1,5 @@
 .foot {
     height: fit-content;
-    /* background: linear-gradient(135deg, rgba(173, 216, 230, 1) 0%, rgba(240, 248, 255, 1) 100%); */
-
-
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
