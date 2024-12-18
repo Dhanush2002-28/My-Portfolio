@@ -158,6 +158,18 @@ hr {
     font-weight: 1000px;
 }
 
+.workex{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 80vw;
+    font-weight: 1000px;
+    gap: 10px;
+    overflow: wrap;
+}
+
 .secondsection>p {
     font-size: 40px;
     font-weight: 700;
